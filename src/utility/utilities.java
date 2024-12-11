@@ -1,5 +1,7 @@
 package utility;
 
+import java.io.IOException;
+
 public class utilities {
 
 
@@ -17,7 +19,7 @@ public class utilities {
                 } else if (os.contains("nix") || os.contains("nux") || os.contains("mac")) {
                     new ProcessBuilder("/bin/bash", "-c", "clear").inheritIO().start().waitFor();
                 }
-            } catch (Exception e) {
+            } catch (IOException | InterruptedException e) {
                 System.out.println("Something went wrong : " + e.getMessage());
             }
         }

@@ -4,7 +4,7 @@ public class users {
     private  int user_id;
     private String user_name;
     private  String user_password;
-    private  String user_email;
+    private final String user_email;
 
         public users(int user_id, String user_name, String user_password,String user_email) {
             this.user_id = user_id;

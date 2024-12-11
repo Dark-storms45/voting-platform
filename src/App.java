@@ -1,8 +1,8 @@
-import utility.Diplay;
+import utility.Display;
 public class App {
     public static void main(String[] args) {
-      Display.displayBox("hello");
-
+      System.out.println("Hello World");
+      Display.displayBox("hello everyone");
 
 
     }

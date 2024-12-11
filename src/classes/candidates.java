@@ -1,9 +1,10 @@
 package classes;
-
+import java.util.HashMap;
 public class candidates {
- private int candidate_id;
+ private  int  candidate_id;
  private String candidate_name;
  private String party;
+private   HashMap<String, Object>boigraphy=new HashMap<>();
  private int count=0;
 
 
