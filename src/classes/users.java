@@ -1,5 +1,6 @@
 package classes;
 
+
 @SuppressWarnings({"InitializerMayBeStatic", "UnnecessaryReturnStatement"})
 public abstract  class users {
     private  int user_id;
